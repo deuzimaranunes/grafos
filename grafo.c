@@ -30,15 +30,10 @@ int main () {
   grafo *G; 
   FILE *P;
   int i;
-  char a;
-  char b;
 
   G = (grafo *) malloc (tam * sizeof (grafo));
-  P = fopen("arq.txt", "r");
-  while (fscanf(P,"%c",&a) != EOF) {
-     for ( i=1; i < tam; i+1) {
-        (fscanf(P,"%c",&b) != EOF)
-      }
-    return criarAresta (G, a, b);
+  P = fopen("arq.txt", "w");
+  
+    return criarAresta (G, 1, 2);
   }
 }
